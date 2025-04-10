@@ -41,5 +41,13 @@ while (num <= max ) {
 }
  */
 ///////////////////////
-///print table//////
+///count tha digits in a given number //////
 ///////////////////////
+
+
+let num = 12614;
+while (num >0){
+  let digit = num %10 ;
+  console.log(digit);
+  num = Math.floor(num/10);
+}
